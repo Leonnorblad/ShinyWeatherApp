@@ -1,0 +1,18 @@
+Package: ShinyWeatherApp
+Type: Package
+Title: Weather forecast application
+Version: 1.0
+Date: 2022-09-27
+Author: Leonard Persson Norblad & Jacob Sibanda
+Maintainer: Leonard Persson Norblad <leope744@student.liu.se> Jacob Sibanda <jacsi259@student.liu.se>
+Description: Creates a shiny application for visualizing weather forecast data. The data is supported by the Weather4cat package.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.2.1
+Imports: 
+    ggplot2,
+    lubridate,
+    shiny,
+    stringr,
+    Weather4cats
+Remotes: Leonnorblad/Weather4cats
